@@ -63,13 +63,13 @@ export default function App() {
           UnitGen.io
         </div>
         <div className="flex items-center gap-6 text-sm text-text-secondary">
-          <div className="px-2 py-1 rounded-[4px] bg-[#E5F6FF] text-[#002D9C] text-[11px] font-bold uppercase tracking-wider">
+          {/* <div className="px-2 py-1 rounded-[4px] bg-[#E5F6FF] text-[#002D9C] text-[11px] font-bold uppercase tracking-wider">
             BETA ACCESS
           </div>
           <div className="flex items-center gap-3">
             <span>Project: core-utility-v1</span>
             <div className="w-8 h-8 rounded-full bg-[#eee] border border-border-main" />
-          </div>
+          </div> */}
         </div>
       </header>
 
@@ -150,12 +150,12 @@ export default function App() {
           <Eraser size={14} />
           RESET EDITOR
         </button>
-        <button 
+        {/* <button 
           className="px-6 py-3 border border-border-main rounded-[4px] font-bold text-[13px] text-text-main hover:bg-bg-primary transition-colors flex items-center gap-2"
         >
           <Settings size={14} />
           SETTINGS
-        </button>
+        </button> */}
         <button
           onClick={handleGenerate}
           disabled={isGenerating || !code.trim()}
